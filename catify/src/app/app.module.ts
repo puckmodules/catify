@@ -8,11 +8,17 @@ import { AppComponent } from './app.component';
 import { CatCardComponent } from './cat-card/cat-card.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from './material-module';
+import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
+import { EditableCatCardComponent } from './editable-cat-card/editable-cat-card.component';
+import { CardOrganizerComponent } from './card-organizer/card-organizer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CatCardComponent
+    CatCardComponent,
+    ImageCarouselComponent,
+    EditableCatCardComponent,
+    CardOrganizerComponent
   ],
   imports: [
     AppRoutingModule,

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CatCardComponent implements OnInit {
 
+  url = "https://cdn2.thecatapi.com/images/" + Math.floor((Math.random() * 3) + 1) + ".jpg";
+
   constructor() { }
 
   ngOnInit() {

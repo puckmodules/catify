@@ -1,0 +1,9 @@
+<mat-grid-list cols="4" rows="6" rowHeight="700px">
+  <mat-grid-tile 
+  class="example-box" 
+  [colspan]="1"
+  [rowspan]="1"
+  *ngFor="let timePeriod of timePeriods" >
+    <cat-card>Loading cat...</cat-card>
+  </mat-grid-tile>
+</mat-grid-list>
