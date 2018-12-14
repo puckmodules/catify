@@ -1,5 +1,5 @@
 .example-card {
-  max-width: 400px;
+  max-width: 300px;
 }
 
 .example-header-image {
@@ -7,14 +7,21 @@
   background-size: cover;
 }
 
-.card-image {
+.card-image-holder {
   background-color: black;
-  object-fit: cover;
-  min-height: 456px;
-  height: 105px;
-  max-height: 456px;
-  min-width: 432px;
-  width: 100px;
-  max-width: 432px;
-  
+  height: 209px;
+  width: 100%; 
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
+
+.card-image {
+  display: block;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0;
 }

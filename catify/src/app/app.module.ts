@@ -11,6 +11,7 @@ import { MaterialModule } from './material-module';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 import { EditableCatCardComponent } from './editable-cat-card/editable-cat-card.component';
 import { CardOrganizerComponent } from './card-organizer/card-organizer.component';
+import { TabLayoutComponent } from './tab-layout/tab-layout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CardOrganizerComponent } from './card-organizer/card-organizer.componen
     CatCardComponent,
     ImageCarouselComponent,
     EditableCatCardComponent,
-    CardOrganizerComponent
+    CardOrganizerComponent,
+    TabLayoutComponent
   ],
   imports: [
     AppRoutingModule,
